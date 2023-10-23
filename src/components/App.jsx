@@ -10,6 +10,8 @@ export class App extends Component {
     filter: '',
   };
 
+  componentDidMount() {}
+
   handleInputChange = e => {
     this.setState({ [e.currentTarget.name]: e.currentTarget.value });
   };
